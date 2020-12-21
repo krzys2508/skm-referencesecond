@@ -5,9 +5,9 @@ services:
     ports:
       - "11111:11111"
     restart: on-failure:5
-    traindb:
-      build: ./db
-      ports:
-       - "3306:3306"
-      environment:
-        MYSQL_ROOT_PASSWORD: pwd
+  trainsdb:
+    build: ./db
+    ports:
+     - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: pwd
