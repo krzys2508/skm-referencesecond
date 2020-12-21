@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import pl.edu.pjatk.simulator.model.Train;
-import pl.edu.pjatk.simulator.service.SkmService;
+import pl.edu.pjatk.simulator.service. SkmService;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;
