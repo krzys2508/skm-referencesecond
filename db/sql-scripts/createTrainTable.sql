@@ -3,4 +3,4 @@ CREATE TABLE trains(
     compartments INT,
     station VARCHAR(250),
     goingToGdansk INT,
-    currentPausTime INT)
+    currentPauseTime INT)

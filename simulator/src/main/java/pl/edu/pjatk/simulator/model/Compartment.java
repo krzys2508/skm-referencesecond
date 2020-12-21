@@ -2,15 +2,25 @@ package pl.edu.pjatk.simulator.model;
 
 import pl.edu.pjatk.simulator.service.Identifiable;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Entity
+@Table(name = "compartment")
+
 public class Compartment implements Identifiable {
-    private final int id;
-    private final int capacity;
-    private final List<Person> occupants;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    int id;
+    int capacity;
+    List <Person> occupants;
+
+    public Compartment(){
+
+    }
 
     public Compartment(int id, int capacity) {
         this.id = id;
