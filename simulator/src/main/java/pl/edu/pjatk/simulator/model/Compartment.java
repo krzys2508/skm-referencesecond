@@ -40,6 +40,18 @@ public class Compartment implements Identifiable {
         return occupants;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public void setOccupants(List<Person> occupants) {
+        this.occupants = occupants;
+    }
+
     public void embark(Person person) {
         if (occupants.size() < capacity) {
             occupants.add(person);

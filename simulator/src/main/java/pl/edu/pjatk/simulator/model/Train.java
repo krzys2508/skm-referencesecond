@@ -7,8 +7,8 @@ import java.util.Collection;
 import java.util.List;
 
 public class Train implements Identifiable {
-    private final int id;
-    private final List<Compartment> compartments;
+    private  int id;
+    private  List<Compartment> compartments;
     private Station currentStation;
     private boolean goingToGdansk;
     private int currentPauseTime;
@@ -60,5 +60,25 @@ public class Train implements Identifiable {
     @Override
     public long getId() {
         return id;
+    }
+
+    public void setCurrentStation(Station currentStation) {
+        this.currentStation = currentStation;
+    }
+
+    public void setGoingToGdansk(boolean goingToGdansk) {
+        this.goingToGdansk = goingToGdansk;
+    }
+
+    public void setCurrentPauseTime(int currentPauseTime) {
+        this.currentPauseTime = currentPauseTime;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setCompartments(List<Compartment> compartments) {
+        this.compartments = compartments;
     }
 }
