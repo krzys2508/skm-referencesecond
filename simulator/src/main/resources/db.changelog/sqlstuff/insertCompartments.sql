@@ -1,0 +1,16 @@
+INSERT INTO compartments (size, train_id) VALUES (5, 1);
+INSERT INTO compartments (size, train_id) VALUES (7, 1);
+INSERT INTO compartments (size, train_id) VALUES (7, 1);
+INSERT INTO compartments (size, train_id) VALUES (5, 1);
+INSERT INTO compartments (size, train_id) VALUES (4, 2);
+INSERT INTO compartments (size, train_id) VALUES (4, 2);
+INSERT INTO compartments (size, train_id) VALUES (9, 2);
+INSERT INTO compartments (size, train_id) VALUES (9, 2);
+INSERT INTO compartments (size, train_id) VALUES (6, 3);
+INSERT INTO compartments (size, train_id) VALUES (6, 3);
+INSERT INTO compartments (size, train_id) VALUES (6, 3);
+INSERT INTO compartments (size, train_id) VALUES (6, 3);
+INSERT INTO compartments (size, train_id) VALUES (6, 3);
+INSERT INTO compartments (size, train_id) VALUES (10, 3);
+INSERT INTO compartments (size, train_id) VALUES (10, 3);
+INSERT INTO compartments (size, train_id) VALUES (10, 3);
